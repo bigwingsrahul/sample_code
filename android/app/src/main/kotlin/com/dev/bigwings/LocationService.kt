@@ -48,7 +48,7 @@ class LocationService : Service() {
                 super.onLocationResult(p0)
                 p0.let {
                     it.locations.forEach { location ->
-                        emitLocationData(location)
+//                        emitLocationData(location)
                     }
                 }
             }
